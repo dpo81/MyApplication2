@@ -16,9 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button btn = (Button)super.findViewById(R.id.btn);
         EditText txt = (EditText)super.findViewById(R.id.txt);
-        MyOnClickListener clickListener();
-
-
-
+        MyOnClickListener clickListener = new MyOnClickListener(txt);
+        btn.setOnClickListener(clickListener);
     }
 }

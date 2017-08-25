@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Pulse este botón"
         tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="177dp" />
+        tools:layout_editor_absoluteY="169dp" />
 
     <EditText
         android:id="@+id/txt"
