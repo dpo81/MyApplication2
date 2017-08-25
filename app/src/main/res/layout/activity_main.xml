@@ -6,13 +6,22 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.myapplication.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Pulse este botón"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <EditText
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Ingrese un texto aquí"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="97dp" />
 
 </android.support.constraint.ConstraintLayout>
